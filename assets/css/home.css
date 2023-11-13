@@ -1,0 +1,325 @@
+.sect-1 {
+    margin-top: 18px;
+    height: 656px;
+    background-image: url(../images/hero-phones-desktop.png), url(../images/hero-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 749px -80px, 575px -80px;
+}
+
+.sect1-div {
+    padding-top: 170px;
+    width: 447px;
+}
+
+.sect1-h2 {
+    color: var(--colorSecondary);
+    font-family: var(--fontFamily);
+    font-size: 56px;
+    font-weight: 200;
+    line-height: 64px;
+    /* 114.286% */
+    letter-spacing: -1px;
+}
+
+.sect1-p {
+    margin: 24px 0 36px 0;
+    color: var(--colorPrimary);
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: -0.281px;
+}
+
+.sect1-btn {
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    /* 200% */
+    border-radius: 22px;
+    border: none;
+    background-image: var(--btnColor);
+    padding: 8px 36px;
+}
+
+.sect-2 {
+    height: 676px;
+    background-color: #F4F5F7;
+    background-image: url(../images/hero-phones-desktop.png), url(../images/hero-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 749px -736px, 575px -736px;
+}
+
+.sect2-h2 {
+    padding-top: 96px;
+    color: #2D314D;
+    font-family: Public Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px;
+    /* 160% */
+    letter-spacing: -0.714px;
+}
+
+.sect2-p {
+    margin-top: 16px;
+    color: var(--colorPrimary);
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.281px;
+}
+
+.sect2-ul {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect2-li {
+    height: 278px;
+    width: 255px;
+}
+
+.sect2-li-h3 {
+    margin: 37px 0 26px 0;
+    color: var(--colorSecondary);
+    font-family: var(--fontFamily);
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    letter-spacing: -0.429px;
+}
+
+.sect2-li-p {
+    color: var(--colorPrimary);
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+}
+
+.sect-3 {
+    background-color: #FAFAFA;
+    padding-bottom: 80px;
+}
+
+.sect3-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect3-h2 {
+    padding: 80px 0 40px 0;
+    color: var(--colorSecondary);
+    font-family: var(--fontFamily);
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 64px;
+    letter-spacing: -0.714px;
+}
+
+.sect3-li-div {
+    padding: 24px;
+    padding-top: 21px;
+}
+
+.sect3-li {
+    border-radius: 5px;
+    background: #FFF;
+    width: 255px;
+}
+
+.sect3-li-cite {
+    color: var(--colorPrimary);
+    font-family: var(--fontFamily);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.156px;
+    font-style: normal;
+}
+
+.sect3-li-h3 {
+    color: var(--colorSecondary);
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: -0.286px;
+}
+
+.sect3-li-h3:hover {
+    color: #30C88F;
+}
+
+.sect3-li-a-div {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.sect3-li-p {
+    color: var(--colorPrimary);
+    font-family: var(--fontFamily);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.203px;
+}
+
+@media only screen and (min-width:374px) and (max-width:1023px) {
+    .container {
+        width: 327px;
+    }
+
+    .sect-1 {
+        height: 671px;
+        background-image: url(../images/hero-phones-mobile.png), url(../images/hero-background-mobile.png);
+        background-position: 0 -64px;
+    }
+
+    .sect1-div {
+        padding-top: 322px;
+        display: flex;
+        width: 327px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect1-h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100;
+        letter-spacing: -0.714px;
+        line-height: normal;
+    }
+
+    .sect1-p {
+        margin: 16px 0 32px 0;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.234px;
+    }
+
+    .sect-2 {
+        height: 1305px;
+    }
+
+    .sect2-h2 {
+        text-align: center;
+        padding-top: 64px;
+        font-size: 32px;
+        font-weight: 100;
+        line-height: normal;
+        letter-spacing: -0.571px;
+    }
+
+    .sect2-p {
+        text-align: center;
+        margin-top: 14px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.234px;
+    }
+
+    .sect2-ul {
+        flex-wrap: wrap;
+        margin-top: 56px;
+    }
+
+    .sect2-li {
+        text-align: center;
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 327px;
+        height: 215px;
+    }
+
+    .sect2-li-h3 {
+        margin: 24px 0 16px 0;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 28px;
+        letter-spacing: -0.357px;
+    }
+
+    .sect2-li-p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.234px;
+    }
+    .sect-3{
+        padding-bottom: 50px;
+    }
+
+    .sect3-h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 100;
+        letter-spacing: -0.571px;
+        padding: 80px 0 15px 0;
+    }
+
+    .sect3-ul {
+        flex-wrap: wrap;
+    }
+
+    .sect3-li-img {
+        width: 327px;
+        height: 200px;
+    }
+
+    .sect3-li-div {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        width: 265px;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    .sect3-li {
+        height: auto;
+        width: 327px;
+        padding-bottom: 64px;
+    }
+
+    .sect3-li-cite {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.156px;
+    }
+
+    .sect3-li-h3 {
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 20px;
+        letter-spacing: -0.286px;
+    }
+
+    .sect3-li-p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.203px;
+    }
+
+@media only screen and (min-width:1024px) {
+    .sect2-p {
+        width: 635px;
+    }
+}
